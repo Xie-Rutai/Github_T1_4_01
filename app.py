@@ -13,7 +13,7 @@ import time
 import requests
 from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
-
+ 
 # 删除之前的代理环境变量设置
 if 'HTTP_PROXY' in os.environ:
     del os.environ['HTTP_PROXY']

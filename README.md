@@ -58,15 +58,6 @@ pip install -r requirements.txt
 bash
 复制代码
 pip install tkinter selenium webdriver-manager requests beautifulsoup4
-配置说明
-代理设置（可选）
-若需通过代理访问互联网，可在脚本中取消注释并设置代理地址：
-
-python
-复制代码
-# os.environ['HTTPS_PROXY'] = 'http://your-proxy:port'
-# os.environ['HTTP_PROXY'] = 'http://your-proxy:port'
-将'http://your-proxy:port'替换为实际的代理地址和端口。
 
 ChromeDriver管理
 脚本中默认下载ChromeDriver版本为114.0.5735.90。请根据已安装的Chrome浏览器版本调整download_chromedriver函数中的driver_url。
@@ -251,12 +242,6 @@ A3: 检查ChromeDriver版本是否与你的Chrome浏览器版本匹配。尝试�
 Q4: 如何配置代理服务器？
 
 A4: 在脚本开头的代理设置部分，取消注释并设置正确的代理地址和端口：
-
-python
-复制代码
-# os.environ['HTTPS_PROXY'] = 'http://your-proxy:port'
-# os.environ['HTTP_PROXY'] = 'http://your-proxy:port'
-将'http://your-proxy:port'替换为实际的代理服务器地址和端口。
 
 Q5: 如何查看抓取过程中的错误信息？
 
